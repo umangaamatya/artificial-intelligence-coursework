@@ -1,0 +1,71 @@
+{
+  "model": "XGBoost",
+  "classes": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "label_to_id": {
+    "Dropout": 0,
+    "Enrolled": 1,
+    "Graduate": 2
+  },
+  "accuracy": 0.8042168674698795,
+  "confusion_matrix": [
+    [
+      168,
+      23,
+      23
+    ],
+    [
+      17,
+      60,
+      42
+    ],
+    [
+      8,
+      17,
+      306
+    ]
+  ],
+  "classification_report": {
+    "Dropout": {
+      "precision": 0.8704663212435233,
+      "recall": 0.7850467289719626,
+      "f1-score": 0.8255528255528255,
+      "support": 214.0
+    },
+    "Enrolled": {
+      "precision": 0.6,
+      "recall": 0.5042016806722689,
+      "f1-score": 0.547945205479452,
+      "support": 119.0
+    },
+    "Graduate": {
+      "precision": 0.8247978436657682,
+      "recall": 0.9244712990936556,
+      "f1-score": 0.8717948717948718,
+      "support": 331.0
+    },
+    "accuracy": 0.8042168674698795,
+    "macro avg": {
+      "precision": 0.7650880549697638,
+      "recall": 0.7379065695792958,
+      "f1-score": 0.7484309676090497,
+      "support": 664.0
+    },
+    "weighted avg": {
+      "precision": 0.7992287334329568,
+      "recall": 0.8042168674698795,
+      "f1-score": 0.7988522389826235,
+      "support": 664.0
+    }
+  },
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 4,
+    "n_estimators": 500,
+    "subsample": 0.8
+  }
+}
