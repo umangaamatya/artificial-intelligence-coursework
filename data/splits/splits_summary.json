@@ -1,0 +1,50 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "train": {
+    "name": "train",
+    "rows": 3096,
+    "class_counts": {
+      "Graduate": 1546,
+      "Dropout": 994,
+      "Enrolled": 556
+    },
+    "class_percent": {
+      "Graduate": 49.94,
+      "Dropout": 32.11,
+      "Enrolled": 17.96
+    }
+  },
+  "val": {
+    "name": "val",
+    "rows": 664,
+    "class_counts": {
+      "Graduate": 332,
+      "Dropout": 213,
+      "Enrolled": 119
+    },
+    "class_percent": {
+      "Graduate": 50.0,
+      "Dropout": 32.08,
+      "Enrolled": 17.92
+    }
+  },
+  "test": {
+    "name": "test",
+    "rows": 664,
+    "class_counts": {
+      "Graduate": 331,
+      "Dropout": 214,
+      "Enrolled": 119
+    },
+    "class_percent": {
+      "Graduate": 49.85,
+      "Dropout": 32.23,
+      "Enrolled": 17.92
+    }
+  }
+}
