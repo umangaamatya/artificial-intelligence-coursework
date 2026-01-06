@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated data files
+data/processed/*.csv
+data/processed/*.parquet
+data/splits/*.csv
+
+# Model artifacts and preprocessing objects
+models/**/*.joblib
+models/**/*.pkl
+models/**/*.sav
+
+# Logs
+*.log
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
