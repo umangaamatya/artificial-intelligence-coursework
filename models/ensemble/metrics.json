@@ -1,0 +1,59 @@
+{
+  "model": "Soft Voting Ensemble",
+  "base_models": [
+    "Decision Tree",
+    "XGBoost",
+    "SVM"
+  ],
+  "accuracy": 0.7846385542168675,
+  "confusion_matrix": [
+    [
+      158,
+      31,
+      25
+    ],
+    [
+      15,
+      61,
+      43
+    ],
+    [
+      10,
+      19,
+      302
+    ]
+  ],
+  "classification_report": {
+    "Dropout": {
+      "precision": 0.8633879781420765,
+      "recall": 0.7383177570093458,
+      "f1-score": 0.7959697732997482,
+      "support": 214.0
+    },
+    "Enrolled": {
+      "precision": 0.5495495495495496,
+      "recall": 0.5126050420168067,
+      "f1-score": 0.5304347826086957,
+      "support": 119.0
+    },
+    "Graduate": {
+      "precision": 0.8162162162162162,
+      "recall": 0.9123867069486404,
+      "f1-score": 0.8616262482168331,
+      "support": 331.0
+    },
+    "accuracy": 0.7846385542168675,
+    "macro avg": {
+      "precision": 0.7430512479692807,
+      "recall": 0.7211031686582642,
+      "f1-score": 0.7293436013750924,
+      "support": 664.0
+    },
+    "weighted avg": {
+      "precision": 0.7836279989252536,
+      "recall": 0.7846385542168675,
+      "f1-score": 0.7811107812896879,
+      "support": 664.0
+    }
+  }
+}
